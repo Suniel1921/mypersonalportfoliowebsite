@@ -1,6 +1,9 @@
 {
   "name": "personal-portfolio-website",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "description": "This is my personal portfolio website using node js and mongodb ",
   "main": "server.js",
   "scripts": {

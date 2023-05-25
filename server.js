@@ -58,8 +58,6 @@ app.get('/services',(req,res)=>{
 
 
 
-
-
 app.post('/contact', async (req, res)=>{
     try{
         const userDatails = new Users(req.body);
@@ -70,23 +68,9 @@ app.post('/contact', async (req, res)=>{
     catch(error){
         res.status(201).send(`your form is not submit 😂! Please fill the all Details `);
 
-    }
-   
+    }   
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
